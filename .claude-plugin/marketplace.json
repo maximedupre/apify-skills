@@ -1,0 +1,8 @@
+{
+	"name": "apify-skills",
+	"owner": {
+		"name": "maximedupre"
+	},
+	"description": "Skills that let your AI agent get data from the web with Apify Actors.",
+	"plugins": []
+}
