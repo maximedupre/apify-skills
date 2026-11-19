@@ -20,6 +20,14 @@
 				"./skills/twitter-lists"
 			],
 			"description": "Scrape X lists: members, tweets, details"
+		},
+		{
+			"name": "viewstats",
+			"source": "./",
+			"skills": [
+				"./skills/viewstats"
+			],
+			"description": "Get Viewstats YouTube channel analytics via Apify"
 		}
 	]
 }

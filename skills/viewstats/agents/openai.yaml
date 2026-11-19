@@ -1,0 +1,4 @@
+interface:
+  display_name: "Viewstats YouTube Channel Analytics Scraper"
+  short_description: "Get Viewstats YouTube channel analytics via Apify"
+  default_prompt: "Use $viewstats to compare the YouTube channels @MrBeast and @YouTube."
