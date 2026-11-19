@@ -12,6 +12,14 @@
 				"./skills/bilibili-video-downloader"
 			],
 			"description": "Download Bilibili videos, audio and details"
+		},
+		{
+			"name": "twitter-lists",
+			"source": "./",
+			"skills": [
+				"./skills/twitter-lists"
+			],
+			"description": "Scrape X lists: members, tweets, details"
 		}
 	]
 }

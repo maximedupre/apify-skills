@@ -1,0 +1,4 @@
+interface:
+  display_name: "Twitter/X List Scraper: Tweets & Members"
+  short_description: "Scrape X lists: members, tweets, details"
+  default_prompt: "Use $twitter-lists to find X lists about a topic and export their members."
