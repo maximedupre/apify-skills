@@ -4,5 +4,14 @@
 		"name": "maximedupre"
 	},
 	"description": "Skills that let your AI agent get data from the web with Apify Actors.",
-	"plugins": []
+	"plugins": [
+		{
+			"name": "bilibili-video-downloader",
+			"source": "./",
+			"skills": [
+				"./skills/bilibili-video-downloader"
+			],
+			"description": "Download Bilibili videos, audio and details"
+		}
+	]
 }

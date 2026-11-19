@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bilibili Video Downloader"
+  short_description: "Download Bilibili videos, audio and details"
+  default_prompt: "Use $bilibili-video-downloader to download this Bilibili video as MP4 and get its details."
