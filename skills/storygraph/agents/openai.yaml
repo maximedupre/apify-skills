@@ -1,0 +1,4 @@
+interface:
+  display_name: "StoryGraph Book Scraper: Ratings, Moods"
+  short_description: "Scrape StoryGraph ratings, moods and warnings"
+  default_prompt: "Use $storygraph to find well-rated books for a topic and report their moods, pace and content warnings."
