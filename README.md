@@ -8,6 +8,7 @@ Skills that let your AI agent get data from the web with Apify Actors.
 | --- | --- |
 | [bilibili-video-downloader](skills/bilibili-video-downloader/SKILL.md) | Download Bilibili videos, audio and details |
 | [handshake-jobs-scraper](skills/handshake-jobs-scraper/SKILL.md) | Collect public Handshake jobs, pay, and employers |
+| [rottentomatoes](skills/rottentomatoes/SKILL.md) | Get Rotten Tomatoes scores, details, and reviews |
 | [snapchat-video-downloader](skills/snapchat-video-downloader/SKILL.md) | Download public Snapchat Spotlight videos with metadata |
 | [storygraph](skills/storygraph/SKILL.md) | Scrape StoryGraph ratings, moods and warnings |
 | [twitter-lists](skills/twitter-lists/SKILL.md) | Scrape X lists: members, tweets, details |

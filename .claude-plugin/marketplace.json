@@ -22,6 +22,14 @@
 			"description": "Collect public Handshake jobs, pay, and employers"
 		},
 		{
+			"name": "rottentomatoes",
+			"source": "./",
+			"skills": [
+				"./skills/rottentomatoes"
+			],
+			"description": "Get Rotten Tomatoes scores, details, and reviews"
+		},
+		{
 			"name": "snapchat-video-downloader",
 			"source": "./",
 			"skills": [

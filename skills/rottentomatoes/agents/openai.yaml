@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rotten Tomatoes Scraper"
+  short_description: "Get Rotten Tomatoes scores, details, and reviews"
+  default_prompt: "Use $rottentomatoes to collect Rotten Tomatoes scores and audience reviews for a movie."
