@@ -54,6 +54,14 @@
 			"description": "Scrape StoryGraph ratings, moods and warnings"
 		},
 		{
+			"name": "tiktok-shop-shops",
+			"source": "./",
+			"skills": [
+				"./skills/tiktok-shop-shops"
+			],
+			"description": "Rank TikTok Shop shops by sales or keyword"
+		},
+		{
 			"name": "twitter-lists",
 			"source": "./",
 			"skills": [

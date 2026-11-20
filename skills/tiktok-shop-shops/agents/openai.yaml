@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok Shop Shops Scraper"
+  short_description: "Rank TikTok Shop shops by sales or keyword"
+  default_prompt: "Use $tiktok-shop-shops to find the top TikTok Shop shops in the US by 7-day revenue."
