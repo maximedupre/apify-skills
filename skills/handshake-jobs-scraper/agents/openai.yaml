@@ -1,0 +1,4 @@
+interface:
+  display_name: "Handshake Jobs Scraper"
+  short_description: "Collect public Handshake jobs, pay, and employers"
+  default_prompt: "Use $handshake-jobs-scraper to collect public Handshake internships and jobs for my search."
