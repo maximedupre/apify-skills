@@ -1,0 +1,4 @@
+interface:
+  display_name: "Snapchat Ads Scraper"
+  short_description: "Scrape Snapchat ads, political ads, creator content"
+  default_prompt: "Use $snapchat-ads to list Amazon's active Snapchat ads in Germany with impressions."

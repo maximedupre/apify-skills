@@ -30,6 +30,14 @@
 			"description": "Get Rotten Tomatoes scores, details, and reviews"
 		},
 		{
+			"name": "snapchat-ads",
+			"source": "./",
+			"skills": [
+				"./skills/snapchat-ads"
+			],
+			"description": "Scrape Snapchat ads, political ads, creator content"
+		},
+		{
 			"name": "snapchat-video-downloader",
 			"source": "./",
 			"skills": [
