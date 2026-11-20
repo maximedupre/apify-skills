@@ -14,6 +14,14 @@
 			"description": "Download Bilibili videos, audio and details"
 		},
 		{
+			"name": "snapchat-video-downloader",
+			"source": "./",
+			"skills": [
+				"./skills/snapchat-video-downloader"
+			],
+			"description": "Download public Snapchat Spotlight videos with metadata"
+		},
+		{
 			"name": "storygraph",
 			"source": "./",
 			"skills": [

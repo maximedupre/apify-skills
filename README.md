@@ -7,6 +7,7 @@ Skills that let your AI agent get data from the web with Apify Actors.
 | Skill | What it does |
 | --- | --- |
 | [bilibili-video-downloader](skills/bilibili-video-downloader/SKILL.md) | Download Bilibili videos, audio and details |
+| [snapchat-video-downloader](skills/snapchat-video-downloader/SKILL.md) | Download public Snapchat Spotlight videos with metadata |
 | [storygraph](skills/storygraph/SKILL.md) | Scrape StoryGraph ratings, moods and warnings |
 | [twitter-lists](skills/twitter-lists/SKILL.md) | Scrape X lists: members, tweets, details |
 | [viewstats](skills/viewstats/SKILL.md) | Get Viewstats YouTube channel analytics via Apify |

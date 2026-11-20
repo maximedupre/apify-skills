@@ -1,0 +1,4 @@
+interface:
+  display_name: "Snapchat Video Downloader"
+  short_description: "Download public Snapchat Spotlight videos with metadata"
+  default_prompt: "Use $snapchat-video-downloader to get download links and details for these Snapchat video links."
