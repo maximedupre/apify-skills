@@ -30,6 +30,14 @@
 			"description": "Collect public Handshake jobs, pay, and employers"
 		},
 		{
+			"name": "instagram-reels-search-scraper",
+			"source": "./",
+			"skills": [
+				"./skills/instagram-reels-search-scraper"
+			],
+			"description": "Search public Instagram Reels by keyword or hashtag"
+		},
+		{
 			"name": "kick-clips",
 			"source": "./",
 			"skills": [

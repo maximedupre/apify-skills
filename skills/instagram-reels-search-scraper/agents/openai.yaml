@@ -1,0 +1,4 @@
+interface:
+  display_name: "Instagram Reels Search Scraper"
+  short_description: "Search public Instagram Reels by keyword or hashtag"
+  default_prompt: "Use $instagram-reels-search-scraper to find recent high-performing Reels for a hashtag."
