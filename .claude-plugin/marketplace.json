@@ -6,6 +6,14 @@
 	"description": "Skills that let your AI agent get data from the web with Apify Actors.",
 	"plugins": [
 		{
+			"name": "amazon-keywords-discovery-tool",
+			"source": "./",
+			"skills": [
+				"./skills/amazon-keywords-discovery-tool"
+			],
+			"description": "Expand seeds into Amazon autocomplete keywords"
+		},
+		{
 			"name": "bilibili-video-downloader",
 			"source": "./",
 			"skills": [

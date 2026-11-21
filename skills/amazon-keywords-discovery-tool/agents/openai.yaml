@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon Keywords Discovery Tool"
+  short_description: "Expand seeds into Amazon autocomplete keywords"
+  default_prompt: "Use $amazon-keywords-discovery-tool to expand my seed terms into Amazon autocomplete keyword suggestions."

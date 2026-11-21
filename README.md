@@ -6,6 +6,7 @@ Skills that let your AI agent get data from the web with Apify Actors.
 
 | Skill | What it does |
 | --- | --- |
+| [amazon-keywords-discovery-tool](skills/amazon-keywords-discovery-tool/SKILL.md) | Expand seeds into Amazon autocomplete keywords |
 | [bilibili-video-downloader](skills/bilibili-video-downloader/SKILL.md) | Download Bilibili videos, audio and details |
 | [handshake-jobs-scraper](skills/handshake-jobs-scraper/SKILL.md) | Collect public Handshake jobs, pay, and employers |
 | [kick-clips](skills/kick-clips/SKILL.md) | Find, rank, and transcribe public Kick clips |
