@@ -38,6 +38,14 @@
 			"description": "Search public Instagram Reels by keyword or hashtag"
 		},
 		{
+			"name": "jefferson-parish-assessor",
+			"source": "./",
+			"skills": [
+				"./skills/jefferson-parish-assessor"
+			],
+			"description": "Look up Jefferson Parish property assessor records"
+		},
+		{
 			"name": "kick-clips",
 			"source": "./",
 			"skills": [

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jefferson Parish Tax Assessor"
+  short_description: "Look up Jefferson Parish property assessor records"
+  default_prompt: "Use $jefferson-parish-assessor to find the owner and assessed value of 200 DERBIGNY ST."

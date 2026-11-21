@@ -10,6 +10,7 @@ Skills that let your AI agent get data from the web with Apify Actors.
 | [bilibili-video-downloader](skills/bilibili-video-downloader/SKILL.md) | Download Bilibili videos, audio and details |
 | [handshake-jobs-scraper](skills/handshake-jobs-scraper/SKILL.md) | Collect public Handshake jobs, pay, and employers |
 | [instagram-reels-search-scraper](skills/instagram-reels-search-scraper/SKILL.md) | Search public Instagram Reels by keyword or hashtag |
+| [jefferson-parish-assessor](skills/jefferson-parish-assessor/SKILL.md) | Look up Jefferson Parish property assessor records |
 | [kick-clips](skills/kick-clips/SKILL.md) | Find, rank, and transcribe public Kick clips |
 | [reddit-scraper](skills/reddit-scraper/SKILL.md) | Scrape Reddit posts, comments, subreddits, users |
 | [rottentomatoes](skills/rottentomatoes/SKILL.md) | Get Rotten Tomatoes scores, details, and reviews |
