@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reddit Scraper"
+  short_description: "Scrape Reddit posts, comments, subreddits, users"
+  default_prompt: "Use $reddit-scraper to collect Reddit posts and comments about a topic into structured rows."

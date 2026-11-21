@@ -38,6 +38,14 @@
 			"description": "Find, rank, and transcribe public Kick clips"
 		},
 		{
+			"name": "reddit-scraper",
+			"source": "./",
+			"skills": [
+				"./skills/reddit-scraper"
+			],
+			"description": "Scrape Reddit posts, comments, subreddits, users"
+		},
+		{
 			"name": "rottentomatoes",
 			"source": "./",
 			"skills": [
