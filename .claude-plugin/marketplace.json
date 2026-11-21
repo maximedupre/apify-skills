@@ -22,6 +22,14 @@
 			"description": "Collect public Handshake jobs, pay, and employers"
 		},
 		{
+			"name": "kick-clips",
+			"source": "./",
+			"skills": [
+				"./skills/kick-clips"
+			],
+			"description": "Find, rank, and transcribe public Kick clips"
+		},
+		{
 			"name": "rottentomatoes",
 			"source": "./",
 			"skills": [

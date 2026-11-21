@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kick Clips Scraper"
+  short_description: "Find, rank, and transcribe public Kick clips"
+  default_prompt: "Use $kick-clips to find the top clips of a Kick channel from the last 7 days."
