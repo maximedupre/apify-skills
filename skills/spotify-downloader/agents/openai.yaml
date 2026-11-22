@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spotify Downloader"
+  short_description: "Get Spotify track data and MP3 links from URLs or searches"
+  default_prompt: "Use $spotify-downloader to get MP3 links and metadata for these Spotify tracks."

@@ -86,6 +86,14 @@
 			"description": "Download public Snapchat Spotlight videos with metadata"
 		},
 		{
+			"name": "spotify-downloader",
+			"source": "./",
+			"skills": [
+				"./skills/spotify-downloader"
+			],
+			"description": "Get Spotify track data and MP3 links from URLs or searches"
+		},
+		{
 			"name": "storygraph",
 			"source": "./",
 			"skills": [
