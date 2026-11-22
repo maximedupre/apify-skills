@@ -20,6 +20,7 @@ Skills that let your AI agent get data from the web with Apify Actors.
 | [storygraph](skills/storygraph/SKILL.md) | Scrape StoryGraph ratings, moods and warnings |
 | [tiktok-shop-shops](skills/tiktok-shop-shops/SKILL.md) | Rank TikTok Shop shops by sales or keyword |
 | [twitter-lists](skills/twitter-lists/SKILL.md) | Scrape X lists: members, tweets, details |
+| [untappd-scraper](skills/untappd-scraper/SKILL.md) | Collect public Untappd beers, breweries, and venues |
 | [viewstats](skills/viewstats/SKILL.md) | Get Viewstats YouTube channel analytics via Apify |
 
 ## Installation

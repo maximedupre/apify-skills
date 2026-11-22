@@ -1,0 +1,4 @@
+interface:
+  display_name: "Untappd Scraper - Ratings & Check-ins"
+  short_description: "Collect public Untappd beers, breweries, and venues"
+  default_prompt: "Use $untappd-scraper to collect public Untappd beer ratings, breweries, or venues for my search."

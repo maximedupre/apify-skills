@@ -118,6 +118,14 @@
 			"description": "Scrape X lists: members, tweets, details"
 		},
 		{
+			"name": "untappd-scraper",
+			"source": "./",
+			"skills": [
+				"./skills/untappd-scraper"
+			],
+			"description": "Collect public Untappd beers, breweries, and venues"
+		},
+		{
 			"name": "viewstats",
 			"source": "./",
 			"skills": [
