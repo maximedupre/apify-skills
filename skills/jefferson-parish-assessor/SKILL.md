@@ -5,9 +5,9 @@ description: "Looks up Jefferson Parish, Louisiana property tax assessor records
 
 # Jefferson Parish Tax Assessor
 
-Runs the Apify Actor [`maximedupre/jefferson-parish-assessor`](https://apify.com/maximedupre/jefferson-parish-assessor) with curl. It returns one dataset row per assessor record (real estate or business personal property). Requires the `APIFY_TOKEN` environment variable.
+Runs the Apify Actor [`maximedupre/jefferson-parish-assessor`](https://apify.com/maximedupre/jefferson-parish-assessor?fpr=qn4m5w) with curl. It returns one dataset row per assessor record (real estate or business personal property). Requires the `APIFY_TOKEN` environment variable.
 
-Input fields: [input schema tab](https://apify.com/maximedupre/jefferson-parish-assessor/input-schema). Cost: [pricing tab](https://apify.com/maximedupre/jefferson-parish-assessor/pricing). API details: [api tab](https://apify.com/maximedupre/jefferson-parish-assessor/api).
+Input fields: [input schema tab](https://apify.com/maximedupre/jefferson-parish-assessor/input-schema?fpr=qn4m5w). Cost: [pricing tab](https://apify.com/maximedupre/jefferson-parish-assessor/pricing?fpr=qn4m5w). API details: [api tab](https://apify.com/maximedupre/jefferson-parish-assessor/api?fpr=qn4m5w).
 
 ## Run protocol (all use cases)
 

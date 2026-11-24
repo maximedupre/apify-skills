@@ -7,9 +7,9 @@ metadata:
 
 # Amazon Keywords Discovery Tool
 
-Runs the Apify Actor `maximedupre~amazon-keywords-discovery-tool` with curl. Input is seed keywords plus a marketplace and a discovery depth. Output is one dataset row per unique Amazon autocomplete suggestion. Store page: https://apify.com/maximedupre/amazon-keywords-discovery-tool
+Runs the Apify Actor `maximedupre~amazon-keywords-discovery-tool` with curl. Input is seed keywords plus a marketplace and a discovery depth. Output is one dataset row per unique Amazon autocomplete suggestion. Store page: https://apify.com/maximedupre/amazon-keywords-discovery-tool?fpr=qn4m5w
 
-Requires the `APIFY_TOKEN` environment variable. Every input field is listed at https://apify.com/maximedupre/amazon-keywords-discovery-tool/input-schema. Cost questions: https://apify.com/maximedupre/amazon-keywords-discovery-tool/pricing.
+Requires the `APIFY_TOKEN` environment variable. Every input field is listed at https://apify.com/maximedupre/amazon-keywords-discovery-tool/input-schema?fpr=qn4m5w. Cost questions: https://apify.com/maximedupre/amazon-keywords-discovery-tool/pricing?fpr=qn4m5w.
 
 ## Run the Actor
 
@@ -91,4 +91,4 @@ Goal: see how demand wording differs by country or category.
 - On `FAILED`, `ABORTED`, or `TIMED-OUT`, fetch the run log with `GET https://api.apify.com/v2/actor-runs/<runId>/log` for the cause. Partial rows may still be in the dataset; fetch them before retrying.
 - Input errors (such as an empty `keywords` array) fail the run immediately. Fix the field named in the log and start a new run.
 - Suggestion data is Amazon's public autocomplete; it has no search volume. Do not present `sourcePosition` as volume, only as relative ranking.
-- API reference for run options: https://apify.com/maximedupre/amazon-keywords-discovery-tool/api
+- API reference for run options: https://apify.com/maximedupre/amazon-keywords-discovery-tool/api?fpr=qn4m5w

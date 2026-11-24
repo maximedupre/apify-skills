@@ -7,7 +7,7 @@ metadata:
 
 # Snapchat Video Downloader
 
-Runs the Apify Actor `maximedupre~snapchat-video-downloader` with curl. Input is a list of public Snapchat video links. Output is one dataset row per video with a direct video file link and details. Store page: https://apify.com/maximedupre/snapchat-video-downloader
+Runs the Apify Actor `maximedupre~snapchat-video-downloader` with curl. Input is a list of public Snapchat video links. Output is one dataset row per video with a direct video file link and details. Store page: https://apify.com/maximedupre/snapchat-video-downloader?fpr=qn4m5w
 
 Requires the `APIFY_TOKEN` environment variable. Both use cases share the run steps below.
 
@@ -29,7 +29,7 @@ Requires the `APIFY_TOKEN` environment variable. Both use cases share the run st
    ```
 4. Done when the status is terminal and the dataset is fetched. On any other terminal status, report it to the user with the run's `statusMessage`.
 
-Input has one field, `startUrls`: an array of `{"url": "https://..."}` objects. Spotlight links (`https://www.snapchat.com/@user/spotlight/ID` or `https://www.snapchat.com/spotlight/ID`) and Story highlight links (`https://www.snapchat.com/@user/highlight/ID`) work. Full schema: https://apify.com/maximedupre/snapchat-video-downloader/input-schema
+Input has one field, `startUrls`: an array of `{"url": "https://..."}` objects. Spotlight links (`https://www.snapchat.com/@user/spotlight/ID` or `https://www.snapchat.com/spotlight/ID`) and Story highlight links (`https://www.snapchat.com/@user/highlight/ID`) work. Full schema: https://apify.com/maximedupre/snapchat-video-downloader/input-schema?fpr=qn4m5w
 
 ## Use case 1: Save videos to disk
 
@@ -53,5 +53,5 @@ For comparing Spotlight performance, ranking a creator's videos, or building a t
 
 - Only public videos work. Links that are not `https://` or not public Snapchat videos are skipped with a warning. The run still succeeds unless every link fails to read, so a link can have no row because it was repeated, skipped, or failed to read.
 - Fields Snapchat does not show are absent from the row. Check a field exists before using it (see [references/output-fields.md](references/output-fields.md)).
-- Cost: pay per result row plus a small per-run start fee. For current prices, read https://apify.com/maximedupre/snapchat-video-downloader/pricing before large batches.
-- API details beyond this skill: https://apify.com/maximedupre/snapchat-video-downloader/api
+- Cost: pay per result row plus a small per-run start fee. For current prices, read https://apify.com/maximedupre/snapchat-video-downloader/pricing?fpr=qn4m5w before large batches.
+- API details beyond this skill: https://apify.com/maximedupre/snapchat-video-downloader/api?fpr=qn4m5w

@@ -5,9 +5,9 @@ description: "Downloads public Bilibili videos as MP4 plus a separate audio file
 
 # Bilibili Video Downloader
 
-Runs the Apify Actor `maximedupre~bilibili-video-downloader` through the Apify REST API with curl. It needs the `APIFY_TOKEN` environment variable. Store page: https://apify.com/maximedupre/bilibili-video-downloader
+Runs the Apify Actor `maximedupre~bilibili-video-downloader` through the Apify REST API with curl. It needs the `APIFY_TOKEN` environment variable. Store page: https://apify.com/maximedupre/bilibili-video-downloader?fpr=qn4m5w
 
-Every input field is documented at https://apify.com/maximedupre/bilibili-video-downloader/input-schema. Prices are at https://apify.com/maximedupre/bilibili-video-downloader/pricing.
+Every input field is documented at https://apify.com/maximedupre/bilibili-video-downloader/input-schema?fpr=qn4m5w. Prices are at https://apify.com/maximedupre/bilibili-video-downloader/pricing?fpr=qn4m5w.
 
 ## Run protocol (all use cases)
 
@@ -67,4 +67,4 @@ Use for sentiment analysis or audience research.
 - For one part of a multi-part video, add `?p=<part number>` to the link. A part that does not exist gives no row, so a run can return fewer rows than links.
 - The audio file is separate; it is not merged into the MP4.
 - `videoUrls` is a list of objects with a `url` key, not plain strings.
-- For cost questions read the pricing tab; for programmatic details read https://apify.com/maximedupre/bilibili-video-downloader/api.
+- For cost questions read the pricing tab; for programmatic details read https://apify.com/maximedupre/bilibili-video-downloader/api?fpr=qn4m5w.

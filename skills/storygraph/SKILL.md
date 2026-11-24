@@ -5,7 +5,7 @@ description: "Scrapes StoryGraph books into structured rows with community ratin
 
 # StoryGraph Book Scraper
 
-Runs the Apify Actor `maximedupre~storygraph`. Input is search queries (titles, authors, series), StoryGraph book links, or both. Output is one dataset row per book. Store page: https://apify.com/maximedupre/storygraph
+Runs the Apify Actor `maximedupre~storygraph`. Input is search queries (titles, authors, series), StoryGraph book links, or both. Output is one dataset row per book. Store page: https://apify.com/maximedupre/storygraph?fpr=qn4m5w
 
 Needs the `APIFY_TOKEN` environment variable. Run the Actor with plain curl, as below.
 
@@ -31,7 +31,7 @@ curl -s "https://api.apify.com/v2/actor-runs/<runId>" -H "Authorization: Bearer 
 curl -s "https://api.apify.com/v2/datasets/<defaultDatasetId>/items?format=json" -H "Authorization: Bearer $APIFY_TOKEN"
 ```
 
-Every input field: https://apify.com/maximedupre/storygraph/input-schema. Cost: https://apify.com/maximedupre/storygraph/pricing (pay per book saved, plus a small start fee). API details: https://apify.com/maximedupre/storygraph/api
+Every input field: https://apify.com/maximedupre/storygraph/input-schema?fpr=qn4m5w. Cost: https://apify.com/maximedupre/storygraph/pricing?fpr=qn4m5w (pay per book saved, plus a small start fee). API details: https://apify.com/maximedupre/storygraph/api?fpr=qn4m5w
 
 ## Use case 1: Shortlist well-rated books on a topic
 

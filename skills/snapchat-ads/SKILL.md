@@ -5,9 +5,9 @@ description: "Scrapes Snapchat's public Ads Gallery (commercial ads by advertise
 
 # Snapchat Ads Scraper
 
-Runs the Apify Actor `maximedupre~snapchat-ads` with curl and the `APIFY_TOKEN` environment variable. It reads Snapchat's public pages only; no Snapchat login is needed. Store page: https://apify.com/maximedupre/snapchat-ads
+Runs the Apify Actor `maximedupre~snapchat-ads` with curl and the `APIFY_TOKEN` environment variable. It reads Snapchat's public pages only; no Snapchat login is needed. Store page: https://apify.com/maximedupre/snapchat-ads?fpr=qn4m5w
 
-Every input field is listed at https://apify.com/maximedupre/snapchat-ads/input-schema. Prices are at https://apify.com/maximedupre/snapchat-ads/pricing. Pick the use case below that matches the request, then follow the run protocol.
+Every input field is listed at https://apify.com/maximedupre/snapchat-ads/input-schema?fpr=qn4m5w. Prices are at https://apify.com/maximedupre/snapchat-ads/pricing?fpr=qn4m5w. Pick the use case below that matches the request, then follow the run protocol.
 
 ## Run protocol (all use cases)
 

@@ -5,7 +5,7 @@ description: "Gets TikTok Shop shops ranked by 7-day sales, or found by keyword,
 
 # TikTok Shop Shops Scraper
 
-Runs the Apify Actor `maximedupre~tiktok-shop-shops` and returns one dataset row per shop. Store page: https://apify.com/maximedupre/tiktok-shop-shops
+Runs the Apify Actor `maximedupre~tiktok-shop-shops` and returns one dataset row per shop. Store page: https://apify.com/maximedupre/tiktok-shop-shops?fpr=qn4m5w
 
 All figures cover the last 7 days, except `dailyRevenue` (28 days). Each search returns at most 10 shops: a top shops run saves up to 10, and a keyword run saves up to 10 for each keyword.
 
@@ -33,7 +33,7 @@ curl -s "https://api.apify.com/v2/actor-runs/<runId>" -H "Authorization: Bearer 
 curl -s "https://api.apify.com/v2/datasets/<defaultDatasetId>/items?format=json" -H "Authorization: Bearer $APIFY_TOKEN"
 ```
 
-Every input field is listed at https://apify.com/maximedupre/tiktok-shop-shops/input-schema. Cost: https://apify.com/maximedupre/tiktok-shop-shops/pricing. Other API calls: https://apify.com/maximedupre/tiktok-shop-shops/api
+Every input field is listed at https://apify.com/maximedupre/tiktok-shop-shops/input-schema?fpr=qn4m5w. Cost: https://apify.com/maximedupre/tiktok-shop-shops/pricing?fpr=qn4m5w. Other API calls: https://apify.com/maximedupre/tiktok-shop-shops/api?fpr=qn4m5w
 
 ## Use case 1: Rank the top shops of a market
 

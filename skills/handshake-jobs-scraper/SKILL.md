@@ -7,7 +7,7 @@ metadata:
 
 # Handshake Jobs Scraper
 
-Runs the Apify Actor `maximedupre~handshake-jobs-scraper` with curl. Input is keywords, locations, Handshake links, or job IDs plus filters. Output is one dataset row per unique public job. No Handshake login is needed. Store page: https://apify.com/maximedupre/handshake-jobs-scraper
+Runs the Apify Actor `maximedupre~handshake-jobs-scraper` with curl. Input is keywords, locations, Handshake links, or job IDs plus filters. Output is one dataset row per unique public job. No Handshake login is needed. Store page: https://apify.com/maximedupre/handshake-jobs-scraper?fpr=qn4m5w
 
 Requires the `APIFY_TOKEN` environment variable. All use cases share the run steps below.
 
@@ -29,7 +29,7 @@ Requires the `APIFY_TOKEN` environment variable. All use cases share the run ste
    ```
 4. Done when the status is terminal and the dataset is fetched. On any other terminal status, follow the failed-run entry in Gotchas.
 
-Every input field: https://apify.com/maximedupre/handshake-jobs-scraper/input-schema. Always set `maxDiscoveryItems`; unset or `0` means every matching job, which can be a very long, costly run.
+Every input field: https://apify.com/maximedupre/handshake-jobs-scraper/input-schema?fpr=qn4m5w. Always set `maxDiscoveryItems`; unset or `0` means every matching job, which can be a very long, costly run.
 
 ## Use case 1: Search jobs by keyword, location, or role
 
@@ -74,9 +74,9 @@ For refreshing known jobs, or collecting jobs from a Handshake search page the u
 ## Gotchas
 
 - Run log: `curl -s "https://api.apify.com/v2/actor-runs/<runId>/log" -H "Authorization: Bearer $APIFY_TOKEN"`. Lines such as `Could not read <link>. Processing continues.` name a link or value that gave no jobs.
-- A failed run: a run can end `FAILED` with 0 rows and the message `Could not finish reading Handshake jobs. Please try again.`, and the log gives no reason. Retry once. If it fails again, report the run's `statusMessage` to the user and suggest the Actor issues tab: https://apify.com/maximedupre/handshake-jobs-scraper/issues
+- A failed run: a run can end `FAILED` with 0 rows and the message `Could not finish reading Handshake jobs. Please try again.`, and the log gives no reason. Retry once. If it fails again, report the run's `statusMessage` to the user and suggest the Actor issues tab: https://apify.com/maximedupre/handshake-jobs-scraper/issues?fpr=qn4m5w
 - A filter excludes any job that lacks the value it checks (for example `postedWithinDays` drops jobs with no posting date, and `compensationFilter` drops jobs without pay). Many filters together can give 0 rows.
 - A public search page can expose fewer jobs than its displayed total. A search link can return only what the page makes public.
 - Fields Handshake does not publish are absent from the row, not `null`. Check a field exists before using it.
-- Cost: a small per-run start fee plus a price per saved job, plus extra per saved employer value when those options are on. For current prices, read https://apify.com/maximedupre/handshake-jobs-scraper/pricing before large runs.
-- API details beyond this skill: https://apify.com/maximedupre/handshake-jobs-scraper/api
+- Cost: a small per-run start fee plus a price per saved job, plus extra per saved employer value when those options are on. For current prices, read https://apify.com/maximedupre/handshake-jobs-scraper/pricing?fpr=qn4m5w before large runs.
+- API details beyond this skill: https://apify.com/maximedupre/handshake-jobs-scraper/api?fpr=qn4m5w

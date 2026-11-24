@@ -5,7 +5,7 @@ description: "Scrapes X (Twitter) lists with the Apify Actor maximedupre/twitter
 
 # X list scraper
 
-Runs the Apify Actor `maximedupre~twitter-lists` with curl and the `APIFY_TOKEN` environment variable. Each run saves one kind of row, chosen by `resultType`. Store page: https://apify.com/maximedupre/twitter-lists. Every input field: https://apify.com/maximedupre/twitter-lists/input-schema. Cost: https://apify.com/maximedupre/twitter-lists/pricing.
+Runs the Apify Actor `maximedupre~twitter-lists` with curl and the `APIFY_TOKEN` environment variable. Each run saves one kind of row, chosen by `resultType`. Store page: https://apify.com/maximedupre/twitter-lists?fpr=qn4m5w. Every input field: https://apify.com/maximedupre/twitter-lists/input-schema?fpr=qn4m5w. Cost: https://apify.com/maximedupre/twitter-lists/pricing?fpr=qn4m5w.
 
 ## Run protocol (all use cases)
 

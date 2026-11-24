@@ -5,7 +5,7 @@ description: "Finds and ranks public Kick clips by channel, category, or globall
 
 # Kick Clips
 
-Runs the Apify Actor `maximedupre~kick-clips` with curl. It needs only the `APIFY_TOKEN` environment variable. Store page: https://apify.com/maximedupre/kick-clips. Every input field is listed at https://apify.com/maximedupre/kick-clips/input-schema. Costs are at https://apify.com/maximedupre/kick-clips/pricing.
+Runs the Apify Actor `maximedupre~kick-clips` with curl. It needs only the `APIFY_TOKEN` environment variable. Store page: https://apify.com/maximedupre/kick-clips?fpr=qn4m5w. Every input field is listed at https://apify.com/maximedupre/kick-clips/input-schema?fpr=qn4m5w. Costs are at https://apify.com/maximedupre/kick-clips/pricing?fpr=qn4m5w.
 
 ## Run protocol (all use cases)
 

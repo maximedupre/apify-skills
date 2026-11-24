@@ -48,8 +48,8 @@ npx skills add maximedupre/apify-skills --skill <skill-name>
 
 ## Prerequisites
 
-- **Apify account**: [sign up here](https://console.apify.com/sign-up). The free plan is enough to start.
-- **APIFY_TOKEN**: get it from [console.apify.com/account/integrations](https://console.apify.com/account/integrations)
+- **Apify account**: [sign up here](https://apify.com/?fpr=qn4m5w). The free plan is enough to start.
+- **APIFY_TOKEN**: get it from [console.apify.com/account/integrations](https://console.apify.com/account/integrations?fpr=qn4m5w)
 - **curl** in your environment
 
 ```bash

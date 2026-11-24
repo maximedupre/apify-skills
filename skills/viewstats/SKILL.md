@@ -7,7 +7,7 @@ metadata:
 
 # Viewstats YouTube channel analytics
 
-Runs the Apify Actor `maximedupre~viewstats`. One dataset row is one channel. Store page: https://apify.com/maximedupre/viewstats. Every input field: https://apify.com/maximedupre/viewstats/input-schema. Prices: https://apify.com/maximedupre/viewstats/pricing.
+Runs the Apify Actor `maximedupre~viewstats`. One dataset row is one channel. Store page: https://apify.com/maximedupre/viewstats?fpr=qn4m5w. Every input field: https://apify.com/maximedupre/viewstats/input-schema?fpr=qn4m5w. Prices: https://apify.com/maximedupre/viewstats/pricing?fpr=qn4m5w.
 
 ## Run protocol
 

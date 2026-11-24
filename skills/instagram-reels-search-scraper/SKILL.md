@@ -7,9 +7,9 @@ metadata:
 
 # Instagram Reels Search Scraper
 
-Runs the Apify Actor [maximedupre/instagram-reels-search-scraper](https://apify.com/maximedupre/instagram-reels-search-scraper) with curl. It searches the public, currently ranked Reels surface, so results reflect today's ranking and are not a historical archive. It needs the `APIFY_TOKEN` environment variable.
+Runs the Apify Actor [maximedupre/instagram-reels-search-scraper](https://apify.com/maximedupre/instagram-reels-search-scraper?fpr=qn4m5w) with curl. It searches the public, currently ranked Reels surface, so results reflect today's ranking and are not a historical archive. It needs the `APIFY_TOKEN` environment variable.
 
-Every input field is documented at https://apify.com/maximedupre/instagram-reels-search-scraper/input-schema. Costs are at https://apify.com/maximedupre/instagram-reels-search-scraper/pricing (one charge per Reel row plus a small start fee). API details: https://apify.com/maximedupre/instagram-reels-search-scraper/api.
+Every input field is documented at https://apify.com/maximedupre/instagram-reels-search-scraper/input-schema?fpr=qn4m5w. Costs are at https://apify.com/maximedupre/instagram-reels-search-scraper/pricing?fpr=qn4m5w (one charge per Reel row plus a small start fee). API details: https://apify.com/maximedupre/instagram-reels-search-scraper/api?fpr=qn4m5w.
 
 ## Run protocol (all use cases)
 

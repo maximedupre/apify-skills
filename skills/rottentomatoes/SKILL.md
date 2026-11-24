@@ -7,7 +7,7 @@ metadata:
 
 # Rotten Tomatoes Scraper
 
-Runs the Apify Actor `maximedupre~rottentomatoes` with plain `curl`. It needs only the `APIFY_TOKEN` environment variable. Store page: https://apify.com/maximedupre/rottentomatoes
+Runs the Apify Actor `maximedupre~rottentomatoes` with plain `curl`. It needs only the `APIFY_TOKEN` environment variable. Store page: https://apify.com/maximedupre/rottentomatoes?fpr=qn4m5w
 
 The Actor returns two kinds of rows, chosen by `resultType`:
 - `titles`: one row per movie, TV series, or season, with scores, cast, credits, and release facts.
@@ -33,7 +33,7 @@ Every use case below uses these three steps. Send the token as a header, never i
      -H "Authorization: Bearer $APIFY_TOKEN"
    ```
 
-All input fields: https://apify.com/maximedupre/rottentomatoes/input-schema. Costs: https://apify.com/maximedupre/rottentomatoes/pricing. API details: https://apify.com/maximedupre/rottentomatoes/api.
+All input fields: https://apify.com/maximedupre/rottentomatoes/input-schema?fpr=qn4m5w. Costs: https://apify.com/maximedupre/rottentomatoes/pricing?fpr=qn4m5w. API details: https://apify.com/maximedupre/rottentomatoes/api?fpr=qn4m5w.
 
 ## Use case 1: Look up scores and details for known titles
 

@@ -5,9 +5,9 @@ description: "Resolves public Spotify tracks into dataset rows with metadata and
 
 # Spotify Downloader
 
-Runs the Apify Actor [maximedupre/spotify-downloader](https://apify.com/maximedupre/spotify-downloader) (Actor id `maximedupre~spotify-downloader`). It handles public tracks only: no playlists, albums, artist pages, podcasts, or private content. Spotify cookies, login, and API key are not needed.
+Runs the Apify Actor [maximedupre/spotify-downloader](https://apify.com/maximedupre/spotify-downloader?fpr=qn4m5w) (Actor id `maximedupre~spotify-downloader`). It handles public tracks only: no playlists, albums, artist pages, podcasts, or private content. Spotify cookies, login, and API key are not needed.
 
-Every use case below shares one run protocol, then differs in input and in how the rows are used. Read [the input schema](https://apify.com/maximedupre/spotify-downloader/input-schema) for every field, and [pricing](https://apify.com/maximedupre/spotify-downloader/pricing) for cost questions.
+Every use case below shares one run protocol, then differs in input and in how the rows are used. Read [the input schema](https://apify.com/maximedupre/spotify-downloader/input-schema?fpr=qn4m5w) for every field, and [pricing](https://apify.com/maximedupre/spotify-downloader/pricing?fpr=qn4m5w) for cost questions.
 
 ## Run protocol
 
@@ -94,7 +94,7 @@ curl -s -o "<trackId>.mp3" -H "Authorization: Bearer $APIFY_TOKEN" \
 ## Gotchas
 
 - Zero rows with status `SUCCEEDED` is possible, with nothing charged for rows. It happens when every input is an invalid link, a track Spotify does not have, or removed by your filters. Only failures that exhaust their retries with no row saved end the run `FAILED`. So check the row count even on `SUCCEEDED`.
-- Skipped tracks are not saved as failure rows. Read the reason in the log: `GET https://api.apify.com/v2/actor-runs/<runId>/log` (with the bearer header). Each submitted URL, URI, or ID that is invalid, missing on Spotify, removed by your filters, or failed after retries should have a `Skipped ...` warning. Tracks found by search that fail get one summary warning, and duplicates are skipped silently. When a missing track has no `Skipped` line, report that the reason is unknown instead of guessing; offer a re-run with that single URL, or point the user to the [issues page](https://apify.com/maximedupre/spotify-downloader/issues/open).
+- Skipped tracks are not saved as failure rows. Read the reason in the log: `GET https://api.apify.com/v2/actor-runs/<runId>/log` (with the bearer header). Each submitted URL, URI, or ID that is invalid, missing on Spotify, removed by your filters, or failed after retries should have a `Skipped ...` warning. Tracks found by search that fail get one summary warning, and duplicates are skipped silently. When a missing track has no `Skipped` line, report that the reason is unknown instead of guessing; offer a re-run with that single URL, or point the user to the [issues page](https://apify.com/maximedupre/spotify-downloader/issues/open?fpr=qn4m5w).
 - Only track links work. A playlist, album, or artist link is reported as not a Spotify track link.
-- Charges apply to saved rows, plus the add-on events (audio preview, saved MP3 file) and a run-start event; the [pricing tab](https://apify.com/maximedupre/spotify-downloader/pricing) has the amounts. To cap spend, set `maxTracks` and the `maxTotalChargeUsd` query parameter on the start-run URL.
-- API details for starting runs with other options: [API tab](https://apify.com/maximedupre/spotify-downloader/api).
+- Charges apply to saved rows, plus the add-on events (audio preview, saved MP3 file) and a run-start event; the [pricing tab](https://apify.com/maximedupre/spotify-downloader/pricing?fpr=qn4m5w) has the amounts. To cap spend, set `maxTracks` and the `maxTotalChargeUsd` query parameter on the start-run URL.
+- API details for starting runs with other options: [API tab](https://apify.com/maximedupre/spotify-downloader/api?fpr=qn4m5w).

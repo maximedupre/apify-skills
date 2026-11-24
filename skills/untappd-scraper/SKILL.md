@@ -7,7 +7,7 @@ metadata:
 
 # Untappd Scraper
 
-Runs the Apify Actor `maximedupre~untappd-scraper` with curl. Input is search terms, Untappd links, or IDs plus filters. Output is one dataset row per public beer, brewery, or venue; `recordType` says which. No Untappd login is needed. Store page: https://apify.com/maximedupre/untappd-scraper
+Runs the Apify Actor `maximedupre~untappd-scraper` with curl. Input is search terms, Untappd links, or IDs plus filters. Output is one dataset row per public beer, brewery, or venue; `recordType` says which. No Untappd login is needed. Store page: https://apify.com/maximedupre/untappd-scraper?fpr=qn4m5w
 
 Requires the `APIFY_TOKEN` environment variable. All use cases share the run steps below.
 
@@ -29,7 +29,7 @@ Requires the `APIFY_TOKEN` environment variable. All use cases share the run ste
    ```
 4. Done when the status is terminal and the dataset is fetched. On any other terminal status, or an empty dataset, follow Gotchas.
 
-Every input field: https://apify.com/maximedupre/untappd-scraper/input-schema. Cost: https://apify.com/maximedupre/untappd-scraper/pricing. Always set `maxRecords`; empty or `0` means every available row, which can be a long, costly run.
+Every input field: https://apify.com/maximedupre/untappd-scraper/input-schema?fpr=qn4m5w. Cost: https://apify.com/maximedupre/untappd-scraper/pricing?fpr=qn4m5w. Always set `maxRecords`; empty or `0` means every available row, which can be a long, costly run.
 
 ## Use case 1: Beer ratings for named beers
 

@@ -5,7 +5,7 @@ description: "Scrapes public Reddit posts, comments, subreddit info, and user pr
 
 # Reddit Scraper
 
-Runs the Apify Actor `maximedupre~reddit-scraper` over plain curl. It needs only the `APIFY_TOKEN` environment variable. Store page: https://apify.com/maximedupre/reddit-scraper
+Runs the Apify Actor `maximedupre~reddit-scraper` over plain curl. It needs only the `APIFY_TOKEN` environment variable. Store page: https://apify.com/maximedupre/reddit-scraper?fpr=qn4m5w
 
 The Actor reads public Reddit data only. It takes no Reddit login. Pick one `discoveryMethod` per run: `search`, `urls`, `subreddits`, or `users`. Fields of the other methods are ignored.
 
@@ -27,7 +27,7 @@ curl -s -H "Authorization: Bearer $APIFY_TOKEN" "https://api.apify.com/v2/datase
 ```
 4. Tell the user the row count and the `rowType` mix. Rows with `rowType` of `post`, `comment`, `community`, or `user` have different fields. Read `rowType` before you read other fields.
 
-Every field of the input is listed at https://apify.com/maximedupre/reddit-scraper/input-schema. Prices per saved row are at https://apify.com/maximedupre/reddit-scraper/pricing. API details: https://apify.com/maximedupre/reddit-scraper/api
+Every field of the input is listed at https://apify.com/maximedupre/reddit-scraper/input-schema?fpr=qn4m5w. Prices per saved row are at https://apify.com/maximedupre/reddit-scraper/pricing?fpr=qn4m5w. API details: https://apify.com/maximedupre/reddit-scraper/api?fpr=qn4m5w
 
 ## Use case 1: Track mentions of a topic or brand
 
