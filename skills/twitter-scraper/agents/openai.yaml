@@ -1,0 +1,4 @@
+interface:
+  display_name: "Twitter (X) Scraper"
+  short_description: "Collect public X posts, profiles, networks, and trends"
+  default_prompt: "Use $twitter-scraper to collect recent public X posts about my topic."

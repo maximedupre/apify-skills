@@ -118,6 +118,14 @@
 			"description": "Scrape X lists: members, tweets, details"
 		},
 		{
+			"name": "twitter-scraper",
+			"source": "./",
+			"skills": [
+				"./skills/twitter-scraper"
+			],
+			"description": "Collect public X posts, profiles, networks, and trends"
+		},
+		{
 			"name": "untappd-scraper",
 			"source": "./",
 			"skills": [
