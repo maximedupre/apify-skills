@@ -22,6 +22,14 @@
 			"description": "Download Bilibili videos, audio and details"
 		},
 		{
+			"name": "douyin-creator-profiles",
+			"source": "./",
+			"skills": [
+				"./skills/douyin-creator-profiles"
+			],
+			"description": "Collect public Douyin creator profiles and posts"
+		},
+		{
 			"name": "google-drive-downloader",
 			"source": "./",
 			"skills": [

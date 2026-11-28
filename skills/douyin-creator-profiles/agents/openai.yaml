@@ -1,0 +1,4 @@
+interface:
+  display_name: "Douyin Creator Profiles and Posts Scraper"
+  short_description: "Collect public Douyin creator profiles and posts"
+  default_prompt: "Use $douyin-creator-profiles to compare follower counts and recent video engagement for these Douyin creators."
