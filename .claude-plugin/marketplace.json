@@ -22,6 +22,14 @@
 			"description": "Download Bilibili videos, audio and details"
 		},
 		{
+			"name": "google-drive-downloader",
+			"source": "./",
+			"skills": [
+				"./skills/google-drive-downloader"
+			],
+			"description": "Preview or download public Google Drive folders"
+		},
+		{
 			"name": "handshake-jobs-scraper",
 			"source": "./",
 			"skills": [

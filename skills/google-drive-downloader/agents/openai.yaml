@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Drive Folder Downloader"
+  short_description: "Preview or download public Google Drive folders"
+  default_prompt: "Use $google-drive-downloader to download a public Google Drive folder as a ZIP."

@@ -8,6 +8,7 @@ Skills that let your AI agent get data from the web with Apify Actors.
 | --- | --- |
 | [amazon-keywords-discovery-tool](skills/amazon-keywords-discovery-tool/SKILL.md) | Expand seeds into Amazon autocomplete keywords |
 | [bilibili-video-downloader](skills/bilibili-video-downloader/SKILL.md) | Download Bilibili videos, audio and details |
+| [google-drive-downloader](skills/google-drive-downloader/SKILL.md) | Preview or download public Google Drive folders |
 | [handshake-jobs-scraper](skills/handshake-jobs-scraper/SKILL.md) | Collect public Handshake jobs, pay, and employers |
 | [instagram-reels-search-scraper](skills/instagram-reels-search-scraper/SKILL.md) | Search public Instagram Reels by keyword or hashtag |
 | [jefferson-parish-assessor](skills/jefferson-parish-assessor/SKILL.md) | Look up Jefferson Parish property assessor records |
