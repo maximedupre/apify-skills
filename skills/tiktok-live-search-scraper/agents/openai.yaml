@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok Live Search Scraper"
+  short_description: "Find TikTok LIVE rooms and daily creator rankings"
+  default_prompt: "Use $tiktok-live-search-scraper to find active TikTok LIVE rooms for a topic."

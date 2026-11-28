@@ -118,6 +118,14 @@
 			"description": "Scrape StoryGraph ratings, moods and warnings"
 		},
 		{
+			"name": "tiktok-live-search-scraper",
+			"source": "./",
+			"skills": [
+				"./skills/tiktok-live-search-scraper"
+			],
+			"description": "Find TikTok LIVE rooms and daily creator rankings"
+		},
+		{
 			"name": "tiktok-shop-shops",
 			"source": "./",
 			"skills": [

@@ -20,6 +20,7 @@ Skills that let your AI agent get data from the web with Apify Actors.
 | [snapchat-video-downloader](skills/snapchat-video-downloader/SKILL.md) | Download public Snapchat Spotlight videos with metadata |
 | [spotify-downloader](skills/spotify-downloader/SKILL.md) | Get Spotify track data and MP3 links from URLs or searches |
 | [storygraph](skills/storygraph/SKILL.md) | Scrape StoryGraph ratings, moods and warnings |
+| [tiktok-live-search-scraper](skills/tiktok-live-search-scraper/SKILL.md) | Find TikTok LIVE rooms and daily creator rankings |
 | [tiktok-shop-shops](skills/tiktok-shop-shops/SKILL.md) | Rank TikTok Shop shops by sales or keyword |
 | [twitter-lists](skills/twitter-lists/SKILL.md) | Scrape X lists: members, tweets, details |
 | [twitter-scraper](skills/twitter-scraper/SKILL.md) | Collect public X posts, profiles, networks, and trends |
